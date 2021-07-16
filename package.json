@@ -1,0 +1,25 @@
+{
+  "name": "electron-eventsource-test",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Testing support for the EventSource API in Electron's Protocol Handlers",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RangerMauve/electron-eventsource-test.git"
+  },
+  "author": "rangermauve <ranger@mauve.moe> (https://mauve.moe/)",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/electron-eventsource-test/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/electron-eventsource-test#readme",
+  "dependencies": {
+    "delay": "^5.0.0",
+    "electron": "^13.1.7"
+  }
+}

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<title>Electrion EventSource Test</title>
+<h1>Electron EventSource Test</h1>
+<p>
+  Please check your console.
+</p>
+<script>
+	const source = new EventSource('example://something/path/to/thing')
+
+	source.onerror = (e) => console.error(e)
+	source.addEventListener('hello', (e) => console.log(e))
+</script>
